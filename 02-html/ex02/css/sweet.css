@@ -4,13 +4,14 @@
   
   body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(94, 39, 82);
-    color: #f1f1f1;
+    background-color: pink;
+    color: red;
+
   }
   
   /* Style the header */
   header {
-    background-color: #b827a0;
+    background-color: rgb(160, 69, 92);
     padding: 30px;
     text-align: center;
     font-size: 35px;
@@ -21,10 +22,13 @@
   nav {
     float: left;
     width: 30%;
-    height: 300px; /* only for demonstration, should be removed */
-
-    background-color: #b827a0;
+    height: 60vh; /* only for demonstration, should be removed */
+    background: rgba(205, 248, 14, 0.856);
     padding: 20px;
+  }
+
+  nav a {
+    color: white;
   }
   
   /* Style the list inside the menu */
@@ -37,8 +41,7 @@
     float: left;
     padding: 20px;
     width: 70%;
-    background-color: #860e72;
-    height: 300px; /* only for demonstration, should be removed */
+    background-color: #f1f1f1;
   }
   
   /* Clear floats after the columns */
@@ -50,10 +53,10 @@
   
   /* Style the footer */
   footer {
-    background-color: #a80d8e;
+    background-color: #777;
     padding: 10px;
     text-align: center;
-    color: rgb(238, 91, 91);
+    color: white;
   }
   
   /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
