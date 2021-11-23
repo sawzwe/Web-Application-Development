@@ -17,6 +17,8 @@
       // to change the css sheet.
       if (theme.getAttribute('href') == 'css/light.css') {
           theme.setAttribute('href', 'css/dark.css');
+      } else if (theme.getAttribute('href') == 'css/sweet.css') {
+          theme.setAttribute('href', 'css/light.css') 
       } else {
           theme.setAttribute('href', 'css/light.css');
       }
