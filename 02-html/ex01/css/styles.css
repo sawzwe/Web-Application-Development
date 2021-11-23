@@ -8,15 +8,13 @@
   
   /* Style the header */
   header {
-    background-color: rgb(24, 214, 198);
+    background-color: rgb(9, 74, 46);
     padding: 30px;
     text-align: center;
     font-size: 35px;
-    color: rgb(255, 224, 50);
+    color: white;
   }
-  h2{
-    font-size: 30px;
-  }
+  
   /* Create two columns/boxes that floats next to each other */
   nav {
     float: left;
@@ -46,14 +44,11 @@
     display: table;
     clear: both;
   }
-  p{
-    padding: 20px; 
-  }
   
   /* Style the footer */
   footer {
     background-color: #777;
-    padding:  10px;
+    padding: 10px;
     text-align: center;
     color: white;
   }
