@@ -4,25 +4,26 @@
   
   body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(94, 39, 82);
+    color: #f1f1f1;
   }
   
   /* Style the header */
   header {
-    background-color: rgb(24, 214, 198);
+    background-color: #b827a0;
     padding: 30px;
     text-align: center;
     font-size: 35px;
-    color: rgb(255, 224, 50);
+    color: white;
   }
-  h2{
-    font-size: 30px;
-  }
+  
   /* Create two columns/boxes that floats next to each other */
   nav {
     float: left;
     width: 30%;
     height: 300px; /* only for demonstration, should be removed */
-    background: #ccc;
+
+    background-color: #b827a0;
     padding: 20px;
   }
   
@@ -36,7 +37,7 @@
     float: left;
     padding: 20px;
     width: 70%;
-    background-color: #f1f1f1;
+    background-color: #860e72;
     height: 300px; /* only for demonstration, should be removed */
   }
   
@@ -46,16 +47,13 @@
     display: table;
     clear: both;
   }
-  p{
-    padding: 20px; 
-  }
   
   /* Style the footer */
   footer {
-    background-color: #777;
-    padding:  10px;
+    background-color: #a80d8e;
+    padding: 10px;
     text-align: center;
-    color: white;
+    color: rgb(238, 91, 91);
   }
   
   /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
@@ -64,4 +62,20 @@
       width: 100%;
       height: auto;
     }
+  }
+
+  .dark-mode {
+    position: absolute;
+    left: 95%;
+    top: 5%;
+    width: 20pt;
+    height: 20pt;
+  }
+
+  .sweet-mode{
+    position: absolute;
+    left: 90%;
+    top: 5%;
+    width: 20pt;
+    height: 20pt;
   }
