@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <button onclick="greeting()">Greeting</button>
+
+  <button onclick="inputName()">Tell me your name</button>
+
+  <button onclick="deleteData()">Delete</button>
+  <div id="name">
+    ...
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+  <script>
+    var name = "";
+    function greeting() {
+      alert("Hello! How are you today?\nThe weather is so nice!")
+    }
+
+    function inputName() {
+      var n = prompt("What is your name?", "Leon")
+      console.debug(typeof (n))
+      alert("Hello " + n)
+      name = n
+      $('#name').html(`<h1>${name}</h1>`)
+    }
+
+    function deleteData() {
+      if (confirm(`Are you sure to delete ${name}?`)) {
+        alert(`${name} DELETED`)
+        $('#name').html(`...`)
+      }
+    }
+  </script>
+</body>
+
+</html>
